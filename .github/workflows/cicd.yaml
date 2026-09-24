@@ -38,5 +38,5 @@ jobs:
 
     - name: Docker push
       run: |
-       docker tag netflix_frontend:latest 060276830770.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/movie-frontend:${GITHUB_RUN_NUMBER}
-       docker push 060276830770.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/movie-frontend:${GITHUB_RUN_NUMBER}
+       docker tag netflix_frontend:latest 148908331090.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/movie-frontend:${GITHUB_RUN_NUMBER}
+       docker push 148908331090.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/movie-frontend:${GITHUB_RUN_NUMBER}
